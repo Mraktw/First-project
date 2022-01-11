@@ -1,0 +1,41 @@
+.header{
+    width: 1440px;
+    height: 596px; 
+    
+   
+}
+.header__property
+{
+    background-color: #87509c; 
+}
+
+.menu{
+    list-style-type: none;
+    padding-left:0;
+    display: flex;
+    position:absolute;
+    right:0;
+    top:0;
+ 
+}  
+ 
+.menu__el1 {
+    text-decoration:none;
+    display: block;
+    padding-right: 15px;
+    
+   
+}
+.logo{
+    width: 118px;
+    height: 37px;
+    
+    
+}
+.logo__pic1{
+    
+    margin-left: 211px;
+    margin-top: 57px;
+    background-color: #87509c;
+
+}
