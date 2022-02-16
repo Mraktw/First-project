@@ -1,0 +1,29 @@
+.menu{
+    display:flex;
+    list-style-type: none;  
+    padding-top: 90px;
+    padding-right: 110px;
+}
+
+.menu__item {
+   padding: 0 10px;
+   margin-right: 20px;
+   text-transform: uppercase;
+  }
+
+.menu__link {
+   text-decoration:none;
+   font-family: 'Titillium Web';
+   font-size: 16px;
+   line-height: 18px;
+   font-weight: 400;
+   color: #ffffff;
+   &:hover {
+       background-color: #643a79;
+       width: 77px;
+       height: 32px;
+      }
+      &:last-child {
+       margin-right: 0;
+          }
+ }

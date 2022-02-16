@@ -1,0 +1,32 @@
+.title__service{
+    font-family: 'Titillium Web';
+    font-size: 40px;
+    line-height: 29px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    padding-top: 30px;
+    text-transform: uppercase;
+    :after {
+        content: '';
+        background-color: #000000;;
+        height: 4px;
+        display: block;
+        width: 87px;
+        position: absolute;
+        right: 1000px;
+        top: 85%;
+      }
+}
+
+.part3__weare{
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    justify-content: center;
+    text-transform: none;
+    padding-top: 50px;
+}
